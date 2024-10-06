@@ -36,9 +36,9 @@ public class PessoaFisica extends Pessoa {
                 "nome='" + getNome() + '\'' +
                 ", endereco='" + getEndereco() + '\'' +
                 ", telefone=" + getTelefone() +
-                ", cpf=" + cpf +
-                ", dataNascimento='" + dataNascimento + '\'' +
-                ", sexo='" + sexo + '\'' +
+                ", cpf=" + getCpf() +
+                ", dataNascimento='" + getDataNascimento() + '\'' +
+                ", sexo='" + getSexo() + '\'' +
                 '}';
     }
 }

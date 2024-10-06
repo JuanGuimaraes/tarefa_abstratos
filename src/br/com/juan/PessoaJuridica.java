@@ -45,10 +45,10 @@ public class PessoaJuridica extends Pessoa {
                 "nome='" + getNome() + '\'' +
                 ", endereco='" + getEndereco() + '\'' +
                 ", telefone=" + getTelefone() +
-                ", cnpj=" + cnpj +
-                ", dataAbertura=" + dataAbertura +
-                ", nomeFantasia='" + nomeFantasia + '\'' +
-                ", porte='" + porte + '\'' +
+                ", cnpj=" + getCnpj() +
+                ", dataAbertura=" + getDataAbertura() +
+                ", nomeFantasia='" + getNomeFantasia() + '\'' +
+                ", porte='" + getPorte() + '\'' +
                 '}';
     }
 }
